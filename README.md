@@ -1,45 +1,35 @@
-# CSV to Excel Converter
+# CODTECH Task 2 - To-Do List
 
-A simple Python project that converts CSV files into Excel format while performing basic data cleaning.
+A simple To-Do List desktop application built using Python and Tkinter as part of the CODTECH Python Programming Internship.
 
-## Features
+## 📌 Intern Information
 
-* Read CSV files
-* Handle missing values
-* Parse date columns
-* Rename column names
-* Export data to Excel (.xlsx)
-* Logging and error handling
-* Command-line support
+- **Intern Name:** Praval Yadav
+- **Intern ID:** CITS8795
+- **Task:** Task 2 - To-Do List (Tkinter GUI)
+- **Domain:** Python Programming
 
-## Requirements
+## 🚀 Features
 
-* Python 3
-* pandas
-* openpyxl
+- Add new tasks
+- Delete selected tasks
+- Clear all tasks
+- Simple graphical user interface
+- Input validation
+- Easy to use
 
-## Install
+## 🛠️ Technologies Used
 
-```bash
-pip install -r requirements.txt
-```
+- Python 3
+- Tkinter
 
-## Run
-
-```bash
-py converter.py --input input/sample.csv --output output/result.xlsx
-```
-
-## Project Structure
+## 📂 Project Structure
 
 ```text
-input/
-output/
-converter.py
-requirements.txt
-README.md
-```
-
-Author
-
-Praval Yadav
+CODTECH-Todo-List/
+│
+├── todo_list.py
+├── README.md
+├── requirements.txt
+├── LICENSE
+└── .gitignore
